@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: comic, cursive;
+    text-align: center;
+    transition: all 3s;
+}
+#nav {
+    display: none;
+    background: none;
+    color: white;
+    border: 0px;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+.dt summary{
+    background-color: rgb(0, 115, 192);
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+    color: white;
+    border: 10px;
+}
+#CampusLife {
+    display: flex;
+    justify-content: center;
+}
+.cl {
+    border: 1px solid black;
+    font-size: 18px;
+    padding: 10px;
+}
+.cl img {
+    width: 30vw;
+    height: 237px;
+}
+.navbar {
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+.nav-list {
+    display: flex;
+}
+.links {
+    list-style: none;
+    padding: 30px 20px;
+}
+.links a {
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.links a:hover {
+    transition: all;
+    transition-delay: 100ms;
+    /* text-decoration: underline; */
+    color: grey;
+}
+@media only screen and (max-width: 711px) {
+    .nav-list{
+        display: none;
+    }#nav {
+        display: block;
+    }
+    .cl {
+        padding: 3px;
+    }
+  }
