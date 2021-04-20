@@ -72,6 +72,19 @@
     text-decoration: none;
     color: white;
 }
+.men {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+.admi img {
+    width: 20vw;
+    margin: 10px;
+}
+.admi {
+    border: 1px solid black;
+}
 .links a:hover {
     transition: all;
     transition-delay: 100ms;
@@ -93,5 +106,8 @@
     .dt img {
         width: 100vw;
         height: auto;
+    }
+    .men {
+        display: block;
     }
   }
